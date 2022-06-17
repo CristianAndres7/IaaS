@@ -33,7 +33,6 @@ jobs:
           USERNAME: ${{secrets.USERNAME}}
           PORT: 22
           KEY: ${{secrets.KEY}} 
-          PASSPHRASE: ${{secrets.PASSPHRASE}}
         with: 
           source: "Hola.html"
           target: "/var/www/html"
